@@ -1,0 +1,12 @@
+/* TEAM */
+    UI/Web designer,
+    Graphics,
+    Developer,
+    Author: Anton Strand
+    Twitter: @apos28
+    Location: Kalmar, Sweden
+
+/* SITE */
+    Last update:2020/04/12
+    Doctype:HTML5
+    Software: Visual Studio Code, Figma

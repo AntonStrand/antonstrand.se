@@ -6,7 +6,9 @@
 <h1 align="center">
   antonstrand.se
 </h1>
-
-It is a SSG built using [Gatsby](https://www.gatsbyjs.org), specifically the [Gatsby Default Starter](https://github.com/gatsbyjs/gatsby-starter-default) and [GraphQL](https://graphql.org/).
-
-Check it out at [antonstrand.se](https://antonstrand.se)
+<p align="center">
+The website is built using <a href="https://www.gatsbyjs.org">Gatsby</a>, specifically the <a href="https://github.com/gatsbyjs/gatsby-starter-default">Gatsby Default Starter</a> and <a href="https://graphql.org/">GraphQL</a>.
+</p>
+<p align="center">
+Check it out at <a href="https://www.antonstrand.se">antonstrand.se</a>.
+</p>

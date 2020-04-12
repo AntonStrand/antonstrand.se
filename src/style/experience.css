@@ -1,0 +1,23 @@
+.experience-header {
+  margin-top: 3em;
+  display: grid;
+  grid-template-columns: 3em auto;
+  grid-template-rows: 2em;
+  grid-template-areas:
+    "logotype title"
+    "logotype period";
+  grid-column-gap: 1em;
+}
+
+.experience-header .logotype {
+  grid-area: logotype;
+}
+
+.experience-header .title {
+  grid-area: title;
+}
+
+.experience-header .period {
+  grid-area: period;
+  opacity: 0.5;
+}

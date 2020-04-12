@@ -1,0 +1,41 @@
+.home {
+  margin-top: 25%;
+  animation: fadein 400ms;
+  animation-timing-function: cubic-bezier(0.49, 0.06, 0.49, 1.32);
+  font-size: min(max(16px, 4vw), 22px);
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    margin-top: 30%;
+  }
+  20% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 25%;
+  }
+}
+
+.home h1 {
+  font-size: min(max(2.5em, 4vw), 2.8em);
+  margin: 0;
+}
+
+.home h2 {
+  font-size: 1.5em;
+  margin: 0.4em 0;
+  font-weight: 400;
+}
+
+.home p {
+  margin-top: 1.5em;
+}
+
+@media only screen and (max-width: 373px) {
+  .home h1 {
+    font-size: 2em;
+  }
+}

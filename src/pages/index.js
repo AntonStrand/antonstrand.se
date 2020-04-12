@@ -2,19 +2,33 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import AnimatedText from "../components/animated-text"
+import AnimatedChar from "../components/animated-char"
 import SEO from "../components/seo"
+import "../style/home.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <SEO title='Home' />
+    <section className='home'>
+      <div>
+        <h2>Hi there</h2>
+        <h1>
+          <AnimatedText>I'm Anton Strand.</AnimatedText>
+        </h1>
+        <h2>
+          <AnimatedChar role='img' aria-label='laptop' aria-labelledby='laptop'>
+            💻
+          </AnimatedChar>{" "}
+          Full-stack developer
+        </h2>
+        <p>
+          <a href='mailto:jag@antonstrand.se'>Say hi</a>, checkout my stuff on{" "}
+          <a href='https://github.com/antonstrand'>Github</a>, or learn more{" "}
+          <Link to='/about'>about me</Link>.
+        </p>
+      </div>
+    </section>
   </Layout>
 )
 

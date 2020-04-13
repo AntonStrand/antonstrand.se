@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.antonstrand.se">
-    <img alt="me" src="https://raw.githubusercontent.com/AntonStrand/antonstrand.se/master/src/images/avatar.png" width="60" />
+    <img alt="me" src="https://raw.githubusercontent.com/AntonStrand/antonstrand.se/master/src/images/avatar.png" width="120" />
   </a>
 </p>
 <h1 align="center">
